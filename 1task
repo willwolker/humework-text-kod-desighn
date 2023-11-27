@@ -4,4 +4,4 @@ x = 200
 step = 300
 for i in range(5):
 oval(x, 600, 200, 200)
-saveImage("ovalchik.pdf")
+saveImage("1task.pdf")
