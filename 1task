@@ -1,0 +1,9 @@
+# draw an oval
+#    x    y    w    h
+drawbot_skia.drawbot import oval
+oval(200, 200, 150, 150)
+x = 200
+step = 300
+for i in range(5):
+oval(x, 600, 200, 200)
+saveImage("ovalchik.pdf")
